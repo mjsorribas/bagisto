@@ -147,9 +147,10 @@
                         >
                             @lang('shop::app.customers.login-form.button-title')
                         </button>
-
-                        {!! view_render_event('bagisto.shop.customers.login_form_controls.after') !!}
                     </div>
+
+                    {!! view_render_event('bagisto.shop.customers.login_form_controls.after') !!}
+                                
                 </x-shop::form>
             </div>
 
