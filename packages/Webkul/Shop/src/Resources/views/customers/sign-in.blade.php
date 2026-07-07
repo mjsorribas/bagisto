@@ -50,7 +50,6 @@
 
             <div class="mt-14 rounded max-sm:mt-8">
                 <x-shop::form :action="route('shop.customer.session.create')">
-
                     {!! view_render_event('bagisto.shop.customers.login_form_controls.before') !!}
 
                     <!-- Email -->
@@ -150,7 +149,6 @@
                     </div>
 
                     {!! view_render_event('bagisto.shop.customers.login_form_controls.after') !!}
-                                
                 </x-shop::form>
             </div>
 
